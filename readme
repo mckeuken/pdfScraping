@@ -1,0 +1,52 @@
+Title: pdfScraping
+Author: MCKeuken
+Date: Nov. 2018
+
+Challange: When calculating the costs of healthcare of institutes we get a number of data files. However it can occure 
+        that these numbers are not complete. In that case it is a bit of a pain because you would then have to go 
+        through these financial reports manually to find that number. The nice thing of these financial reports is 
+        that their layout is fairly constant which means that a given number is usually preceded by a regular       
+        description. 
+        
+Goal:   The goal of this script is to search for certain strings within a PDF document which is followed by a number. 
+        The code first converts PDF files to a txt file, then within the txt file searches for a regular expression. 
+        The reason why I convert the PDFs to text is because PDFs are not necessarily very easy to search through via 
+        regular expresions. 
+
+Layout:
+        1) Importing standard modules
+        2) Definine PDF-TXT convert functions
+        3) Convert the PDF to TXT
+        4) Search for the regular expression  
+        5) Control
+    
+Requirements:  two folders:  - pdfDir (this contains your pdf files)
+                             - txtDir (this is the output folder)
+Title:  pdfScraping
+Auteur:  MCKeuken
+Datum:  Nov. 2018
+
+Uitdaging: Bij het bereken van zorgkosten van instellingen krijgen we een aantal bestanden aangeleverd. Het kan soms 
+        voorkomen dat een bepaald getal mist. Dit is dan best onhandig omdat je dan handmatig door een jaarrekening 
+        moet om dat bepaalde bedrag te vinden. Het voordeel is dat de layout van jaarrekeningen een bepaalde structuur
+        aanhouden waar de beschijving voorafgaande aan het bedrag constant kan zijn. 
+        
+Doel:   Doelstelling is om binnenaPDF bestanden opzoek te gaan naar een bepaalde text waarna een bedrag staat. 
+        Wat de code doet is de pdf bestanden om te zetten naar een txt bestand, in het txt bestand opzoek 
+        gaan naar een reguliere expressie, en de text na de reguliere expressie wegschrijft naar een dataframe.
+        De reden waarom de PDF's omgezet worden naar txt is dat pdf's niet echt heel makelijk zijn om door te 
+        zoeken met regulieren expressies. 
+
+Layout:  
+        1) Algemene modules importeren
+        2) PDF-TXT omzet functies defineren
+        3) Daadwerkelijk PDF naar TXT uitvoeren
+        4) Op zoek naar de reguliere expressie 
+        5) Controle
+    
+Requirements:  twee folders aanmaken:  - pdfDir (waarin je de pdf's inzet)
+                                       - txtDir (dit is de output folder)
+ 
+ 
+
+ 
