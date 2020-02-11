@@ -2,7 +2,7 @@ Title: pdfScraping
 Author: MCKeuken
 Date: Nov. 2018
 
-Challange: When calculating the costs of healthcare of institutes we get a number of data files. However it can occure 
+Challange: When calculating the costs of healthcare of institutes we get a number of data files. It can occure 
         that these numbers are not complete. In that case it is a bit of a pain because you would then have to go 
         through these financial reports manually to find that number. The nice thing of these financial reports is 
         that their layout is fairly constant which means that a given number is usually preceded by a regular       
